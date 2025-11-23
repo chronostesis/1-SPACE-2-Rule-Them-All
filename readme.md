@@ -4,11 +4,11 @@ The core idea is to guide large language models (LLMs) to focus on the **interse
 
 The codebase provides:
 
-\- Methods to obtain **activation representations** of LLMs  
-\- An editing procedure in **capability subspace** 
-\- An **evaluation pipeline** to quantify hallucination mitigation
+- Methods to obtain **activation representations** of LLMs  
+- An editing procedure in **capability subspace** 
+- An **evaluation pipeline** to quantify hallucination mitigation
 
----
+
 
 ## 1\. Project Overview
 
@@ -28,7 +28,7 @@ The overall pipeline is:
 2. [Space Edit](#42-space-edit) - perform capability subspace intersection and model editing.  
 3. [Evaluation](#43-evaluation) - run benchmarks to evaluate hallucination mitigation
 
----
+
 
 ## 2\. Environment Setup
 
@@ -106,4 +106,5 @@ If you find this code useful for your research, please cite our paper:
   author={Wang, Pengbo and Li, Chaozhuo and Wang, Chenxu and Zheng, Liwen and Zhang, Litian and Zhang, Xi},
   booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}
 }
+
 ```
